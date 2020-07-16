@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="993.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.New_Worker_Controller">
+   <children>
+      <Label fx:id="label_title" alignment="CENTER" layoutX="77.0" layoutY="44.0" prefHeight="66.0" prefWidth="436.0" text="Dodaj pracownika">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="imie" layoutX="111.0" layoutY="130.0" prefHeight="39.0" prefWidth="366.0" promptText="Imie">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="nazwisko" layoutX="111.0" layoutY="178.0" prefHeight="39.0" prefWidth="366.0" promptText="Nazwisko">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="drugie_imie" layoutX="111.0" layoutY="227.0" prefHeight="39.0" prefWidth="366.0" promptText="Drugie imie">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="pesel" layoutX="111.0" layoutY="275.0" prefHeight="39.0" prefWidth="366.0" promptText="PESEL">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="miasto" layoutX="111.0" layoutY="369.0" prefHeight="39.0" prefWidth="366.0" promptText="Miasto">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ulica" layoutX="111.0" layoutY="416.0" prefHeight="39.0" prefWidth="366.0" promptText="Ulica">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nr_budynku" layoutX="111.0" layoutY="464.0" prefHeight="39.0" prefWidth="366.0" promptText="Numer budynku">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nr_lokalu" layoutX="112.0" layoutY="514.0" prefHeight="39.0" prefWidth="366.0" promptText="Numer lokalu">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="kod_pocztowy" layoutX="111.0" layoutY="608.0" prefHeight="39.0" prefWidth="366.0" promptText="Kod pocztowy">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="login" layoutX="111.0" layoutY="703.0" prefHeight="39.0" prefWidth="366.0" promptText="Login">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="haslo" layoutX="111.0" layoutY="750.0" prefHeight="39.0" prefWidth="366.0" promptText="Hasło">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="id_placowki" layoutX="112.0" layoutY="799.0" prefHeight="39.0" prefWidth="366.0" promptText="ID placówki">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="112.0" layoutY="876.0" mnemonicParsing="false" onAction="#button_ok" prefHeight="66.0" prefWidth="165.0" text="Ok" />
+      <Button layoutX="312.0" layoutY="876.0" mnemonicParsing="false" onAction="#button_cancel" prefHeight="66.0" prefWidth="165.0" text="Anuluj" />
+      <ComboBox fx:id="plec" layoutX="112.0" layoutY="560.0" prefHeight="39.0" prefWidth="366.0" promptText="Płeć" />
+      <ComboBox fx:id="stopien_naukowy" layoutX="111.0" layoutY="656.0" prefHeight="39.0" prefWidth="366.0" promptText="Stopień naukowy" />
+      <DatePicker fx:id="data_uro" layoutX="111.0" layoutY="321.0" prefHeight="39.0" prefWidth="366.0" promptText="Data urodzenia" />
+   </children>
+</AnchorPane>

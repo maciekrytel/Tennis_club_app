@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="906.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Admin_Controller">
+   <children>
+      <Label fx:id="label_title" alignment="CENTER" layoutX="90.0" layoutY="37.0" prefHeight="96.0" prefWidth="420.0" text="Konto administratorskie">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="195.0" layoutY="658.0" mnemonicParsing="false" onAction="#button_workers" prefHeight="67.0" prefWidth="210.0" text="Pracownicy" />
+      <Button layoutX="195.0" layoutY="812.0" mnemonicParsing="false" onAction="#button_logout" prefHeight="67.0" prefWidth="210.0" text="Wyloguj" />
+      <ListView fx:id="list_data" layoutX="87.0" layoutY="127.0" prefHeight="489.0" prefWidth="426.0" />
+   </children>
+</AnchorPane>
